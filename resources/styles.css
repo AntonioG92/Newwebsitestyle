@@ -1,0 +1,41 @@
+body{
+    width: 1300px;
+    margin: 0px auto;
+}
+
+
+.banner h1{
+    margin: 0px auto;
+}
+
+h1{
+    font-size: 25px;
+    font-family:"Montserrat",sans-serif;
+    position: relative;
+    top: 15px;
+    background-color: coral;
+    padding: 30px 20px;
+}
+
+.content{
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    float: left;
+}
+
+h2{
+    position:relative;
+    bottom: 20px;
+    padding: 5px 10px;
+    background-color: coral;
+    font-family: "Roboto+Condensed", sans-serif;
+}
+
+h2 p{
+    display:inline;
+    font-size:15px
+}
+

@@ -1,0 +1,138 @@
+.breadcrumb{
+    margin:15px 0;
+}
+
+.breadcrumb li{
+    display: flex;
+    float: left;
+    font-size:20px;
+    color: black;
+    border:1px solid black;
+    background-color: coral;
+    padding:5px 15px;
+    margin:0 3px;
+    box-shadow:2px 2px;
+    border-radius: 15px;
+    position: relative;
+    right: 44px;
+    top:10px;
+}
+
+.breadcrumb li a{
+    text-decoration:none;
+    font-family: "Montserrat",sans-serif;
+    padding: 0 5px;
+}
+
+.breadcrumb li a:hover{
+    color:white;
+    cursor: pointer;
+}
+
+.breadcrumb li:active{
+    color:white;
+    margin-top: 3px;
+    margin-bottom: -6px;
+    box-shadow: 0px 0px;
+    background-color:crimson;
+}
+
+.breadcrumb li+li::before{
+    content:">";
+    color: white;
+}
+
+.breadcrumb li+li::after{
+    content:"!";
+    color: white;
+}
+
+#colors a{
+    float: right;
+    font-size:20px;
+    color: black;
+    border:1px solid black;
+    background-color: coral;
+    padding:0px 15px;
+    box-shadow:2px 2px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#colors a::before{
+    content: ">";
+}
+
+#colors a:hover{
+    color:black;
+    cursor: pointer;
+}
+
+#colors a:active{
+    color:white;
+    margin-top: 3px;
+    margin-bottom: -6px;
+    box-shadow: 0px 0px;
+    background-color:crimson;
+}
+
+
+#fonts a{
+    float: right;
+    font-size:20px;
+    color: black;
+    border:1px solid black;
+    background-color: coral;
+    padding:0px 15px;
+    box-shadow:2px 2px;
+    border-radius: 15px;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+}
+
+#fonts a::before{
+    content: ">";
+}
+
+#fonts a:hover{
+    color:black;
+    cursor: pointer;
+}
+
+#fonts a:active{
+    color:white;
+    margin-top: 3px;
+    margin-bottom: -6px;
+    box-shadow: 0px 0px;
+    background-color:crimson;
+}
+
+#textstyles a{
+    float: right;
+    font-size:20px;
+    color: black;
+    border:1px solid black;
+    background-color: coral;
+    padding:0px 15px;
+    box-shadow:2px 2px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#textstyles a::before{
+    content: ">";
+}
+
+#textstyles a:hover{
+    color:black;
+    cursor: pointer;
+}
+
+#textstyles a:active{
+    color:white;
+    margin-top: 3px;
+    margin-bottom: -6px;
+    box-shadow: 0px 0px;
+    background-color:crimson;
+}

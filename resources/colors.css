@@ -1,0 +1,115 @@
+#colors{
+    position: relative;
+    top: 0px;
+    border: 1px solid coral;
+    margin:20px 0;   
+}
+
+#colors h3, p{
+    padding: 20px 20px;
+}
+
+.color p,.coloralign{
+    display:inline;
+}
+
+.coloralign{
+    padding: 35px 35px;
+    font-size: 20px;
+    text-align: justify;
+    float: right;
+    position: relative;
+    color: aliceblue;
+    bottom:60px;
+    right: 20px;
+}
+
+.ex1 {
+    background-color: blue;
+}
+.ex12 {
+    background-color: green;
+}
+.ex13 {
+    background-color: red;
+}
+.ex14 {
+    background-color: black;
+}
+.ex15 {
+    background-color: Pink;
+}
+
+.ex1:hover{
+    opacity:0.2;
+    cursor: pointer; 
+}
+.ex12:hover{
+    opacity:0.2;
+    cursor: pointer; 
+}
+.ex13:hover{
+    opacity:0.2;
+    cursor: pointer; 
+}
+.ex14:hover{
+    opacity:0.2;
+    cursor: pointer; 
+}
+.ex15:hover{
+    opacity:0.2;
+    cursor: pointer; 
+}
+
+.hsla p,.ex2{
+    display:inline;
+}
+
+
+
+.ex2{
+    background-color:hsla(120,100%,50%,0.3); 
+    padding: 35px 35px;
+    font-size: 20px;
+    text-align: justify;
+    float: right;
+    position: relative;
+    color: aliceblue;
+    bottom:60px;
+    right: 55px;
+    bottom: 80px;
+}
+
+.opacity p,.ex3{
+    display:inline;
+}
+
+.ex3{
+    background-color:red; 
+    opacity: 0.5;
+    padding: 35px 35px;
+    font-size: 20px;
+    text-align: justify;
+    float: right;
+    position: relative;
+    color: aliceblue;
+    bottom:80px;
+    right: 55px;
+    left: 214px;
+}
+
+.rgba p,.ex4{
+    display:inline;
+}
+
+.ex4{
+    background-color:rgba(0,0,255,0.3); 
+    padding: 35px 35px;
+    font-size: 20px;
+    text-align: justify;
+    float: right;
+    position: relative;
+    color: aliceblue;
+    bottom:150px;
+    right: 55px;
+}

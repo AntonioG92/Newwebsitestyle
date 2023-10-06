@@ -1,0 +1,42 @@
+.fuggles{
+    font-family:"Fuggles", Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 20px;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 20px;
+}
+
+.roboto{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:5px 20px;
+}
+
+.oswald{
+    font-family: 'Oswald', sans-serif;
+    padding: 5px 20px;
+    position: relative;
+    top:5px;
+}
+
+#fonts div{
+    padding: 5px 5px;
+    display: inline-block; 
+}
+
+#fonts h3{
+display: inline;
+font-size: 20px;
+padding: 0 20px;
+}
+
+#fonts p{
+    font-size: 15px;
+}
+
+#fonts{
+    position: relative;
+    top: 90px;
+    border: 1px solid coral;
+}

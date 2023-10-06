@@ -1,0 +1,33 @@
+.h1 p{
+    font-size: 30;
+    font-family: "Montessat",sans-serif;
+    font-weight: 900;
+}
+
+.h2 p{
+    font-size: 20;
+    font-family: "Robot",sans-serif;
+    font-weight: 400;
+}
+
+.p p{
+    font-size: 15;
+    font-family: "Fuggles",sans-serif;
+    font-weight: 100;
+}
+
+#h2 p{
+    font-size:15px;
+}
+
+#textstyles div{
+    display: inline-block;
+    position: relative;
+    bottom:40px;
+}
+
+#textstyles{
+    position: relative;
+    top: 200px;
+    border: 1px solid coral;   
+}
